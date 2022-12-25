@@ -34,6 +34,8 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
       target,
     });
 
+
+    // Set success based on response
     const success = response.ok;
     if (success) {
       getLaunches();
